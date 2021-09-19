@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 public class MainApp {
     public static void main(String[] args) throws IOException {
 Human human = new Human("Аня", "женский", 12,"jora", "grisha");
+
+Human human1 = new Human("Аня", "женский", 12,"jora", "gri2sha");
 /*
 Создай класс Human с полями имя(String), пол(boolean), возраст(int), отец(Human), мать(Human).
 Создай объекты и заполни их так, чтобы получилось: Два дедушки, две бабушки, отец, мать, двое детей. Вывести объекты на экран.
